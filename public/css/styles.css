@@ -39,3 +39,30 @@ body {
   background: linear-gradient(to right, #D7BBF5, #FBA1B7);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.btn-dark {
+  background-color: #343a40; /* Dark gray */
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #23272b; /* Darker gray on hover */
+  border-color: #23272b;
+}
+
+.btn-block {
+  background-color: #343a40; /* Dark gray */
+  border-color: #343a40;
+  color: white;
+}
+
+.btn-block:hover {
+  background-color: #23272b; /* Darker gray on hover */
+  border-color: #23272b;
+  color: white;
+}
+
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent off-white */
+  color: #f8f9fa; /* Text color for input */
+}
